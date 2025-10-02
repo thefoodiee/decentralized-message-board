@@ -1,0 +1,15 @@
+[package]
+name = "sire"
+version = "1.0.0"
+authors = []
+
+[addresses]
+sire = "0x57744e3994ef2cb7f18f0a3c9ad78635272850fcd9a36be998fee780d424736e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
